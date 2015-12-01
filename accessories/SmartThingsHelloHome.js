@@ -1,4 +1,4 @@
-var types  = require("../lib/HAP-NodeJS/accessories/types.js")
+var types = require("../api").homebridge.hapLegacyTypes;
 var request = require("request")
 
 function SmartThingsHelloHomeAccessory(log, config) {
